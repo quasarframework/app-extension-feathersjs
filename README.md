@@ -3,5 +3,5 @@ The official Quasar 1.0 App-Extension for feathersjs
 
 ## Installation
 ```shell
-$ quasar ext add @quasar/graphql
+$ quasar ext add @quasar/feathersjs
 ```
