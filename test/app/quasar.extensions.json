@@ -1,0 +1,26 @@
+{
+  "@quasar/testing-unit-jest": {
+    "babel": "babelrc",
+    "options": [
+      "SFC",
+      "scripts",
+      "wallabyjs"
+    ]
+  },
+  "@quasar/testing-e2e-cypress": {
+    "options": []
+  },
+  "@quasar/testing": {
+    "harnesses": [
+      "unit-jest",
+      "e2e-cypress"
+    ]
+  },
+  "@quasar/graphql": {},
+  "@quasar/feathersjs": {
+    "options": [
+      "server",
+      "frontend"
+    ]
+  }
+}
