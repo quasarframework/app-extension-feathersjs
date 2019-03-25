@@ -1,6 +1,6 @@
 # app-extension-graphql [WIP]
 ![official icon](https://img.shields.io/badge/Quasar%201.0-Official%20App%20Extension-blue.svg)
-<a href="https://v1.quasar-framework.org" target="_blank"><img src="https://badge.fury.io/js/%40quasar%2Fquasar-app-extension-featherjs.svg"></a>
+<a href="https://v1.quasar-framework.org" target="_blank"><img src="https://badge.fury.io/js/%40quasar%2Fquasar-app-extension-feathersjs.svg"></a>
 
 | Statements | Branches | Functions | Lines |
  |-------|------------|----------|-----------|
