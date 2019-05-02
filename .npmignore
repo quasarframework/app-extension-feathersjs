@@ -9,3 +9,5 @@ npm-debug.log
 test
 .eslintrc.js
 .eslintignore
+coverage
+yarn-error.log

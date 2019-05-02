@@ -20,7 +20,7 @@
     "audit:snyk": "snyk test --org=info-fth --json > ./test/audits/snyk.json",
     "audit:node_modules": "yarn audit --json > ./test/audits/node_modules_audit.json",
     "audit:licenses": "nlf --summary detail > ./test/audits/licenses.txt",
-    "precommit": "yarn test && node node_modules/.bin/snyk test --severity-threshold=medium && node node_modules/.bin/jest-badges-readme --coverageDir=./coverage && git add 'README.md' && node_modules/.bin/lint-staged"
+    "precommit": "yarn test && node node_modules/.bin/jest-badges-readme --coverageDir=./coverage && git add 'README.md' && node_modules/.bin/lint-staged"
   },
   "dependencies": {
     "@feathersjs/client": "^3.7.8",
