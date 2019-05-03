@@ -1,0 +1,44 @@
+{
+  "// Default Settings for all instances.": true,
+  "// Use ALLCAPS in value as a process.env.ALLCAPS": true,
+  "host": "localhost",
+  "// In development, redirect to the Quasar dev server": true,
+  "redirect": "https://localhost:3000",
+  "// Feathers server runs on separate port": true,
+  "port": "3001",
+  "mongodb": "mongodb://localhost:27017/stuff",
+
+  "trustProxy": true,
+
+  "// These are your localhost addresses": true,
+  "whitelistIps": ["::1", "127.0.0.1"],
+
+  "public": "../public/",
+
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+
+  "authentication": {
+    "secret": "JWT_SECRET",
+    "strategies": ["jwt", "local"],
+    "path": "/authentication",
+    "service": "api/users",
+    "jwt": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yoursite",
+      "subject": "anonymous",
+      "issuer": "yoursite",
+      "algorithm": "HS256",
+      "expiresIn": "14d"
+    },
+    "local": {
+      "entity": "user",
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  }
+}
