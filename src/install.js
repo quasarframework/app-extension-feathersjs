@@ -8,9 +8,9 @@
  * @param {function} api
  */
 module.exports = function (api) {
-	api.render('./templates/base')
-	/* istanbul ignore if */
-	if (api.prompts.options === 'server') {
-		api.render('./templates/server')
-	}
+  api.render('./templates/base')
+  /* istanbul ignore if */
+  if (api.prompts.options === 'server') {
+    api.render('./templates/server')
+  }
 }
