@@ -19,7 +19,7 @@ $ quasar ext add @quasar/feathersjs
 
 ## About
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+This project uses [FeathersJs](http://feathersjs.com). An open source web framework for building modern real-time applications.
 
 ## Getting Started
 
