@@ -1,6 +1,6 @@
 {
   "name": "@quasar/quasar-app-extension-feathersjs",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.5",
   "description": "A Quasar CLI Extension",
   "author": "Daniel Thompson-Yvetot <35242872+nothingismagick@users.noreply.github.com>",
   "homepage": "http://quasar-framework.org",
@@ -23,7 +23,10 @@
     "precommit": "yarn test && node node_modules/.bin/jest-badges-readme --coverageDir=./coverage && git add 'README.md' && node_modules/.bin/lint-staged"
   },
   "dependencies": {
+    "@feathersjs/authentication-client": "^1.0.11",
     "@feathersjs/client": "^3.7.8",
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/socketio-client": "^1.2.1",
     "feathers-vuex": "^1.7.0",
     "socket.io-client": "^2.2.0"
   },
@@ -44,10 +47,10 @@
     "eslint-plugin-vue": "4.7.1",
     "fs-extra": "^7.0.1",
     "husky": "^1.3.1",
-    "jest": "^24.3.1",
+    "jest": "^24.8.0",
     "lint-staged": "8.1.0",
     "nlf": "^2.0.1",
-    "snyk": "^1.136.1"
+    "snyk": "^1.79.0"
   },
   "husky": {
     "hooks": {
