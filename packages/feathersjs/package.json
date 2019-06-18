@@ -1,0 +1,31 @@
+{
+  "name": "@quasar/quasar-app-extension-feathersjs",
+  "version": "1.0.0-alpha.6",
+  "license": "MIT",
+  "description": "A Quasar App Extension for managing feathersjs installations",
+  "author": "Daniel Thompson-Yvetot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quasarframework/app-extension-feathersjs"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "snyk test && echo \"No test specified\" && exit 0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.8.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "execa": "^1.0.0",
+    "strip-ansi": "^5.0.0"
+  },
+  "devDependencies": {
+    "snyk": "^1.170.0"
+  }
+}
