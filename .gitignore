@@ -10,3 +10,4 @@ coverage
 /**/coverage
 *.env
 /**/.env
+.vscode
